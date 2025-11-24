@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dheeraj Muley — AI/ML Engineer Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Dheeraj Muley — AI/ML Engineer with 35+ completed AI projects. Skilled in Machine Learning, Deep Learning, NLP, Computer Vision & Python." />
+
+    <style>
+        :root {
+            --bg: #0f1724;
+            --card: #0b1220;
+            --accent: #06b6d4;
+            --muted: #94a3b8;
+            --glass: rgba(255, 255, 255, 0.03)
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+            color: #e6eef8;
+            background: linear-gradient(180deg, #071029 0%, #071428 60%);
+            -webkit-font-smoothing: antialiased
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 24px
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 700
+        }
+
+        .sub {
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        nav a {
+            color: var(--muted);
+            text-decoration: none;
+            margin-left: 14px;
+            font-size: 14px;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 320px;
+            gap: 24px;
+            margin-top: 22px
+        }
+
+        .card {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+            padding: 18px;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6)
+        }
+
+        .lead {
+            font-size: 18px;
+            color: #dff6fb;
+            font-weight: 600
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 12px
+        }
+
+        .chip {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 6px 10px;
+            border-radius: 8px;
+            font-size: 13px
+        }
+
+        .cta {
+            display: flex;
+            gap: 10px;
+            margin-top: 16px
+        }
+
+        .btn {
+            background: var(--accent);
+            border: none;
+            padding: 10px 14px;
+            border-radius: 8px;
+            color: #052024;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .outline {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: var(--muted)
+        }
+
+        .projects {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 14px
+        }
+
+        .proj {
+            padding: 14px;
+            border-radius: 10px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+            min-height: 120px;
+        }
+
+        .proj h3 {
+            margin: 0;
+            font-size: 15px;
+            font-weight: 600
+        }
+
+        .proj p {
+            margin: 6px 0;
+            font-size: 13px;
+            color: var(--muted)
+        }
+
+        footer {
+            margin-top: 28px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 13px
+        }
+
+        @media (max-width:880px) {
+            .hero {
+                grid-template-columns: 1fr
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <header>
+            <div>
+                <h1>Dheeraj Muley</h1>
+                <div class="sub">AI/ML Engineer • Remote Ready • Pune, India</div>
+            </div>
+            <nav>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="card">
+                <div class="lead">AI/ML Engineer — 35+ Real AI Projects</div>
+                <p style="font-size:14px; color:var(--muted)">
+                    Passionate about building real-world AI solutions including Computer Vision systems, NLP pipelines,
+                    automation tools, and deployable machine learning applications.
+                    Strong foundation in Python, TensorFlow, PyTorch, OpenCV, NLP & deployment frameworks.
+                </p>
+
+                <div class="skills">
+                    <span class="chip">Python</span><span class="chip">TensorFlow</span><span
+                        class="chip">PyTorch</span><span class="chip">OpenCV</span><span
+                        class="chip">Streamlit</span><span class="chip">FastAPI</span><span
+                        class="chip">Transformers</span><span class="chip">Scikit-learn</span><span
+                        class="chip">YOLO</span><span class="chip">NLP</span>
+                </div>
+
+                <div class="cta">
+                    <a class="btn" href="#">📄 Download Resume</a>
+                    <a class="btn outline" href="#projects">View Projects</a>
+                </div>
+
+                <p style="font-size:12px;margin-top:12px">
+                    GitHub: <a href="https://github.com/dheeraj815"
+                        style="color:var(--accent)">github.com/dheeraj815</a><br>
+                    LinkedIn: <a href="https://www.linkedin.com/in/dheeraj-muley"
+                        style="color:var(--accent)">linkedin.com/in/dheeraj-muley</a>
+                </p>
+            </div>
+
+            <aside class="card">
+                <h3>📌 Status</h3>
+                <p style="font-size:13px; color:var(--muted);">Actively seeking <b>Remote AI/ML Internship or Junior
+                        Role.</b></p>
+                <h3>📞 Contact</h3>
+                <p style="font-size:13px; line-height:20px;">
+                    📧 dheerajmuley006@gmail.com<br>
+                    📱 +91 8855036760<br>
+                    📍 Pune, India (Remote Eligible)
+                </p>
+            </aside>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="card" style="margin-top:24px">
+            <h2>Featured Projects</h2>
+
+            <div class="projects">
+                <div class="proj">
+                    <h3>AI Virtual Mouse</h3>
+                    <p>Real-time hand tracking & gesture-based mouse control using MediaPipe + OpenCV.</p>
+                </div>
+                <div class="proj">
+                    <h3>BrainBuddy Kids App</h3>
+                    <p>Educational AI app with quizzes, speech features & reward feedback.</p>
+                </div>
+                <div class="proj">
+                    <h3>Face Recognition Attendance</h3>
+                    <p>Computer vision-based auto attendance with deep learning model.</p>
+                </div>
+                <div class="proj">
+                    <h3>Stock Predictor (LSTM)</h3>
+                    <p>Time-series forecasting with sequential neural network.</p>
+                </div>
+                <div class="proj">
+                    <h3>Movie Recommender</h3>
+                    <p>TF-IDF based similarity engine with deployed Streamlit UI.</p>
+                </div>
+                <div class="proj">
+                    <h3>Mental Health Chatbot</h3>
+                    <p>NLP-powered sentiment-aware chatbot for guided conversation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="card" style="margin-top:24px">
+            <h2>Skills & Tech Stack</h2>
+            <p style="font-size:14px;color:var(--muted)">
+                Machine Learning, Deep Learning, NLP, Computer Vision, Deployment, Python Automation, Model
+                Optimization.
+            </p>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="card" style="margin-top:24px">
+            <h2>Let's Connect</h2>
+            <p style="color:var(--muted);font-size:14px">Available for remote roles, freelance work, collaborations & AI
+                project development.</p>
+            <a href="mailto:dheerajmuley006@gmail.com" class="btn">📩 Email Me</a>
+        </section>
+
+        <footer>© 2025 — Built by Dheeraj Muley</footer>
+    </div>
+</body>
+
+</html>
